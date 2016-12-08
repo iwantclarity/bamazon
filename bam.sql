@@ -15,12 +15,12 @@ CREATE TABLE `Products` (
 INSERT INTO `Products`
 (`ProductName`,`DepartmentName`,`Price`,`StockQuantity`)
 VALUES
-('Kenyan Coffee', 'Games', 19.99, 64),
-('Brazil Coffee', 'Movies', 19.99, 64),
-('Kurig Coffee Maker', 'Toys', 5.99, 64),
-('Filters', 'Clothing', 5.99, 64),
-('Coffee Cups', 'Housewares', 49.99, 64),
-('Cards Against Humanity', 'Games', 25.99, 64),
-('Star Wars action figures', 'Toys', 5.99, 64),
-('Shades', 'Clothing', 5.99, 64),
-('iPad', 'Electronics', 199.99, 64);
+('Kenyan Coffee', 'Drink', 11.99, 50),
+('Brazil Coffee', 'Drink', 9.99, 50),
+('Kurig Coffee Maker', 'Housewares', 155.99, 50),
+('Filters', 'Housewares', 2.99, 50),
+('Coffee Cups', 'Housewares', 9.99, 50),
+('Green Tea', 'Drink', 5.99, 50),
+('Black Tea', 'Drink', 4.99, 50),
+('Kona Coffee', 'Drink', 29.99, 50),
+('JBM Coffee', 'Drink', 49.99, 50);
