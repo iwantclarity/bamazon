@@ -23,7 +23,7 @@ function main(){
 	connection.query('SELECT * FROM Products', function(err, res) {
 		if(err) throw err;
 	
-		console.log("\n~~~~Welcome to Bamazon!~~~~\nWhere shopping is BA-MAZING!\n");
+		console.log("\nWelcome to Bamazon!\nGreat Ready To Shop!\n");
 
 		//Loop to display all items
 		for (var i = 0; i < res.length; i++){
